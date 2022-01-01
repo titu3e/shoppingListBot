@@ -100,8 +100,8 @@ def unknown(bot, update):
     print ("Unknown command.")
 
 print("BOT ONLINE!")
-bot = telegram.Bot(token='') #Get your token from @BotFather
-updater = Updater(token='') #Get your token from @BotFather
+bot = telegram.Bot(token='5016713832:AAFanQaM9w7R6H0KvCW8LoxDTK5-yu1ui9E') #Get your token from @BotFather
+updater = Updater(token='5016713832:AAFanQaM9w7R6H0KvCW8LoxDTK5-yu1ui9E') #Get your token from @BotFather
 dispatcher = updater.dispatcher
 logging.basicConfig(format='%(asctime)s - %(name)s - %(levelname)s - %(message)s', level=logging.INFO)
 updater.start_polling()
