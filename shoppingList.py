@@ -13,6 +13,7 @@ import os
 
 """Start."""
 def start (bot, update):
+    bot.send_photo(chat_id=update.message.chat_id, photo="https://4.bp.blogspot.com/-zc_UqDaU2YM/YDPJ7H3yc2I/AAAAAAAAE3M/Ai21vNy62SEBxi109uS4UvSLR6PbwD3UgCK4BGAYYCw/s1600/The%252BGallery%252Blogo-01.jpg")
     bot.send_message(chat_id=update.message.chat_id, text="Hello! I'm VictorNS69's Bot. Enjoy this \"sopping list\" bot.")
     bot.send_message(chat_id=update.message.chat_id, text="/help for more info.")
     print("start.")
